@@ -1,0 +1,42 @@
+#pr-memo-container {
+  border: 2px solid #ffab00;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+#pr-memo-container h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  white-space: nowrap;
+}
+
+#pr-memo-checklist {
+  list-style: none;
+  padding-left: 0;
+}
+
+#pr-memo-checklist li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+#pr-memo-checklist input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+#pr-memo-checklist input[type="text"] {
+  flex-grow: 1;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  padding: 5px 12px;
+  margin-right: 8px;
+}
+
+.delete-memo-item {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #d0d7de;
+}

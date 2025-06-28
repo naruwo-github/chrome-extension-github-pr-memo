@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub PR Review Checklist",
+  "version": "0.1.0",
+  "description": "Adds a checklist to GitHub pull request pages.",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/*/pull/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
